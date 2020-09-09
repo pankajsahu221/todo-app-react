@@ -1,0 +1,30 @@
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8vmin;
+    margin-bottom: 2rem;
+}
+.title h1{
+    text-align: center;
+    font-size: 2.3rem;
+}
+@media screen and (max-width:520px){
+    .title h1{
+        font-size: 1.8rem;
+    }
+    .title{
+        margin: 0 2vmin;
+        margin-bottom: 2rem;
+    }
+}
+#underline{
+    width:10rem;
+    border: none;
+    border-radius: 5px;
+    background: #30D2BE;
+    height: 4px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+}

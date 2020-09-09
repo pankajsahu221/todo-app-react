@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.todo-item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background: purple; */
+    /* margin: 0.4rem; */
+}
+.todo-item-detail{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.2rem 0;
+    /* background: pink; */
+}
+.todo-item .edit-options{
+    display: flex;
+    flex-direction: row;
+    /* background: yellow; */
+}
+.todo-item-detail h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    text-transform: capitalize;
+}
+.delete-btn{
+    color: rgb(255, 0, 0);
+}
+.edit-btn{
+    color: skyblue;
+}
