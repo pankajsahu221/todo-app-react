@@ -1,4 +1,9 @@
+## Todo
 This todo-app is built using ReactJS and also used Material UI.
+
+* User can add todo item 
+* User can delete todo item
+* User can edit the name of the todo item
 
 Try it now
 
