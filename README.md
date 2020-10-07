@@ -1,4 +1,4 @@
-## Todo
+## Todo app react
 This todo-app is built using ReactJS and also used Material UI.
 
 * User can add todo item 
